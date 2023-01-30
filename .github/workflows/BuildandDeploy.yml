@@ -23,7 +23,7 @@ jobs:
         HUGO_VERSION: 0.101.0
         HUGO_EXTENDED: true
         TARGET_REPO: bethalageetachandraraju/zanna-research_source.github.io
-        TARGET_BRANCH: gb-pages
+        TARGET_BRANCH: gh-pages
         TOKEN: ${{ secrets.GH_TOKEN }}
         HUGO_ARGS: --debug
         GO_VERSION: 1.17
