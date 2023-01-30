@@ -19,7 +19,8 @@ jobs:
     - name: Hugo Deploy GitHub Pages
       uses: benmatselby/hugo-deploy-gh-pages@main
       env:
-        GITHUB_TOKEN: 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
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
         HUGO_VERSION: 0.101.0
         HUGO_EXTENDED: true
         TARGET_REPO: bethalageetachandraraju/zanna-research_source.github.io
